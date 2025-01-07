@@ -5,6 +5,16 @@ app_description = "Digital Economy calculation tool"
 app_email = "nguyenth@osbholding.com"
 app_license = "mit"
 
+
+fixtures = [
+    {
+        "doctype": "Client Script",
+        "filters": [
+            ["module", "in", ("Kinh Te So")]
+        ]
+    }
+]
+
 # Apps
 # ------------------
 

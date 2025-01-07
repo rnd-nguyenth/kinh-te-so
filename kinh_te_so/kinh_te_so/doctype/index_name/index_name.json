@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ten_chi_so",
+ "creation": "2025-01-02 11:19:25.597656",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_chi_so",
+  "bo_chi_so",
+  "column_break_vzhr",
+  "so_thu_tu",
+  "diem_co_so"
+ ],
+ "fields": [
+  {
+   "fieldname": "ten_chi_so",
+   "fieldtype": "Data",
+   "label": "T\u00ean ch\u1ec9 s\u1ed1",
+   "unique": 1
+  },
+  {
+   "fieldname": "bo_chi_so",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "B\u1ed9 ch\u1ec9 s\u1ed1",
+   "options": "\nNh\u1eadn th\u1ee9c s\u1ed1 v\u00e0 th\u1ec3 ch\u1ebf s\u1ed1\nH\u1ea1 t\u1ea7ng s\u1ed1 v\u00e0 an ninh m\u1ea1ng\nNh\u00e2n l\u1ef1c s\u1ed1\nHo\u1ea1t \u0111\u1ed9ng Kinh t\u1ebf s\u1ed1\nDoanh thu c\u00e1c ng\u00e0nh KTS"
+  },
+  {
+   "fieldname": "column_break_vzhr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "diem_co_so",
+   "fieldtype": "Int",
+   "label": "\u0110i\u1ec3m c\u01a1 s\u1edf"
+  },
+  {
+   "fieldname": "so_thu_tu",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "S\u1ed1 th\u1ee9 t\u1ef1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-03 15:35:41.835987",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Index Name",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

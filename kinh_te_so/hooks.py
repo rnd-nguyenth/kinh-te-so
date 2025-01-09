@@ -11,7 +11,11 @@ fixtures = [
         "doctype": "Client Script",
         "filters": [
             ["module", "in", ("Kinh Te So")]
-        ]
+        ],
+        "doctype": "Server Script",
+        "filters": [
+            ["module", "in", ("Kinh Te So")]
+        ],
     }
 ]
 

@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-01-09 10:44:45.852369",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "grdp_index",
+  "loai_kts",
+  "ty_trong",
+  "du_lieu_nam",
+  "column_break_yrbp",
+  "quy",
+  "nam",
+  "thoi_gian"
+ ],
+ "fields": [
+  {
+   "fieldname": "grdp_index",
+   "fieldtype": "Link",
+   "label": "GRDP Index",
+   "options": "GRDP Index"
+  },
+  {
+   "fieldname": "loai_kts",
+   "fieldtype": "Select",
+   "label": "Lo\u1ea1i KTS",
+   "options": "\nKTS L\u00f5i\nKTS Lan to\u1ea3"
+  },
+  {
+   "fieldname": "ty_trong",
+   "fieldtype": "Percent",
+   "label": "T\u1ef7 tr\u1ecdng",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "du_lieu_nam",
+   "fieldtype": "Check",
+   "label": "D\u1eef li\u1ec7u n\u0103m"
+  },
+  {
+   "fieldname": "column_break_yrbp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "label": "Th\u1eddi gian"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 10:54:57.951081",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Pie Chart",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

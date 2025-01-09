@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2024-09-24 13:47:45.432798",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nganh_kinh_te",
+  "ma_nganh_kinh_te",
+  "title",
+  "column_break_xqud",
+  "c\u1ea5p_ng\u00e0nh",
+  "loai_kts"
+ ],
+ "fields": [
+  {
+   "fieldname": "nganh_kinh_te",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ng\u00e0nh kinh t\u1ebf",
+   "length": 255
+  },
+  {
+   "fieldname": "ma_nganh_kinh_te",
+   "fieldtype": "Data",
+   "label": "M\u00e3 ng\u00e0nh kinh t\u1ebf"
+  },
+  {
+   "fieldname": "c\u1ea5p_ng\u00e0nh",
+   "fieldtype": "Select",
+   "label": "C\u1ea5p ng\u00e0nh",
+   "options": "\nC\u1ea5p I\nC\u1ea5p II\nC\u1ea5p III"
+  },
+  {
+   "fieldname": "loai_kts",
+   "fieldtype": "Select",
+   "label": "Lo\u1ea1i KTS",
+   "options": "\nKTS l\u00f5i\nKTS ng\u00e0nh kinh t\u1ebf ngo\u00e0i ICT"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Title",
+   "length": 255,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_xqud",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-24 14:27:43.439694",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Industry Name",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

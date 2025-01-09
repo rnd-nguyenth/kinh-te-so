@@ -19,7 +19,8 @@
    "in_list_view": 1,
    "label": "T\u00ean ch\u1ec9 s\u1ed1",
    "link_filters": "[[\"Index Name\",\"bo_chi_so\",\"=\",\"Doanh thu c\u00e1c ng\u00e0nh KTS\"]]",
-   "options": "Index Name"
+   "options": "Index Name",
+   "read_only": 1
   },
   {
    "columns": 2,
@@ -40,7 +41,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-03 13:35:21.339611",
+ "modified": "2025-01-09 14:15:58.624829",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Digital Economy Revenue",

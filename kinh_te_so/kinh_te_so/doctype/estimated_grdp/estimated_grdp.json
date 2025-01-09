@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2024-09-24 14:51:39.902392",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "th\u00f4ng_tin_tab",
+  "section_break_cnvt",
+  "title",
+  "column_break_nvns",
+  "thoi_gian",
+  "section_break_znie",
+  "html_ojdv",
+  "du_lieu_nam",
+  "section_break_ebgy",
+  "nam",
+  "column_break_wyed",
+  "quy",
+  "section_break_alcw",
+  "bang_uoc_tinh",
+  "section_break_nubt",
+  "thue_san_pham_tru_tro_cap_san_pham",
+  "column_break_alxx",
+  "tong_grdp_uoc_tinh"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "column_break_wyed",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bang_uoc_tinh",
+   "fieldtype": "Table",
+   "options": "Estimated Industry GRDP"
+  },
+  {
+   "fieldname": "th\u00f4ng_tin_tab",
+   "fieldtype": "Tab Break",
+   "label": "Th\u00f4ng tin"
+  },
+  {
+   "fieldname": "section_break_nubt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "thue_san_pham_tru_tro_cap_san_pham",
+   "fieldtype": "Float",
+   "label": "Thu\u1ebf s\u1ea3n ph\u1ea9m tr\u1eed tr\u1ee3 c\u1ea5p s\u1ea3n ph\u1ea9m",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_alxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tong_grdp_uoc_tinh",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "T\u1ed5ng GRDP \u01b0\u1edbc t\u00ednh",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval: !doc.du_lieu_nam",
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "default": "0",
+   "fieldname": "du_lieu_nam",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "D\u1eef li\u1ec7u n\u0103m"
+  },
+  {
+   "fieldname": "section_break_ebgy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_ojdv",
+   "fieldtype": "HTML",
+   "options": "<p>Trong tr\u01b0\u1eddng h\u1ee3p d\u1eef li\u1ec7u nh\u1eadp l\u00e0 d\u1eef li\u1ec7u c\u1ee7a n\u0103m, ch\u1ecdn v\u00e0o \u00f4 <b>D\u1eef li\u1ec7u n\u0103m</b> b\u00ean d\u01b0\u1edbi</p>"
+  },
+  {
+   "fieldname": "section_break_alcw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_cnvt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nvns",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_znie",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 14:03:06.360616",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Estimated GRDP",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "thoi_gian",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}

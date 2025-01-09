@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-10-07 14:30:45.369914",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "he_so_chuyen_doi",
+  "input_template_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "he_so_chuyen_doi",
+   "fieldtype": "Float",
+   "label": "H\u1ec7 s\u1ed1 chuy\u1ec3n \u0111\u1ed5i",
+   "precision": "9"
+  },
+  {
+   "fieldname": "input_template_table",
+   "fieldtype": "Table",
+   "options": "Input Variable Industry Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 15:53:09.870152",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Input Variable",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

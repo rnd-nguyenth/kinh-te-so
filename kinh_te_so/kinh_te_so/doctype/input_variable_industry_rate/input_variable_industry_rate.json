@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-07 14:51:58.539520",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nganh_kinh_te",
+  "ty_le_chi_tieu_ict_tieu_dung_trung_gian",
+  "loai_kts"
+ ],
+ "fields": [
+  {
+   "fieldname": "nganh_kinh_te",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Ng\u00e0nh kinh t\u1ebf",
+   "options": "Industry Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ty_le_chi_tieu_ict_tieu_dung_trung_gian",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "T\u1ef7 l\u1ec7 chi ti\u00eau ICT/Ti\u00eau d\u00f9ng trung gian",
+   "precision": "9"
+  },
+  {
+   "fetch_from": "nganh_kinh_te.loai_kts",
+   "fieldname": "loai_kts",
+   "fieldtype": "Select",
+   "label": "Lo\u1ea1i KTS",
+   "options": "\nKTS l\u00f5i\nKTS ng\u00e0nh kinh t\u1ebf ngo\u00e0i ICT"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-09 15:41:24.456003",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Input Variable Industry Rate",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

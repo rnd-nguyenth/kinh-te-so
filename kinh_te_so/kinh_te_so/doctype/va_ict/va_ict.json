@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2024-09-25 11:34:44.193269",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_wduj",
+  "title",
+  "column_break_tbir",
+  "thoi_gian",
+  "section_break_jsfs",
+  "html_vzfv",
+  "du_lieu_nam",
+  "section_break_knud",
+  "nam",
+  "chi_so_grdp_uoc_tinh",
+  "column_break_vkko",
+  "quy",
+  "bien_dau_vao",
+  "section_break_tarp",
+  "he_so_chuyen_doi",
+  "bang_va_ict",
+  "tong_va"
+ ],
+ "fields": [
+  {
+   "fieldname": "chi_so_grdp_uoc_tinh",
+   "fieldtype": "Link",
+   "label": "Ch\u1ec9 s\u1ed1 GRDP \u01b0\u1edbc t\u00ednh",
+   "options": "Estimated GRDP",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval: !doc.du_lieu_nam",
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "fieldname": "column_break_vkko",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "he_so_chuyen_doi",
+   "fieldtype": "Float",
+   "label": "H\u1ec7 s\u1ed1 chuy\u1ec3n \u0111\u1ed5i",
+   "placeholder": "H\u1ec7 s\u1ed1 \u03b2",
+   "precision": "9"
+  },
+  {
+   "fieldname": "section_break_tarp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bang_va_ict",
+   "fieldtype": "Table",
+   "label": "VA ICT",
+   "options": "VA ICT Industry"
+  },
+  {
+   "fieldname": "section_break_wduj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_tbir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "bold": 1,
+   "fieldname": "tong_va",
+   "fieldtype": "Currency",
+   "label": "T\u1ed5ng VA",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "html_vzfv",
+   "fieldtype": "HTML",
+   "options": "<p>Trong tr\u01b0\u1eddng h\u1ee3p l\u00e0 d\u1eef li\u1ec7u n\u0103m, ch\u1ecdn v\u00e0o \u00f4 <b>D\u1eef li\u1ec7u n\u0103m</b> b\u00ean d\u01b0\u1edbi</p>"
+  },
+  {
+   "fieldname": "section_break_knud",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "du_lieu_nam",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "D\u1eef li\u1ec7u n\u0103m"
+  },
+  {
+   "fieldname": "bien_dau_vao",
+   "fieldtype": "Link",
+   "label": "Bi\u1ebfn \u0111\u1ea7u v\u00e0o",
+   "options": "Input Variable"
+  },
+  {
+   "fieldname": "section_break_jsfs",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 16:02:18.852171",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "VA ICT",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "thoi_gian",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}

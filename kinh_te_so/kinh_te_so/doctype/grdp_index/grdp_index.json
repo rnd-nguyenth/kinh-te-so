@@ -1,0 +1,268 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2024-09-25 16:33:19.062723",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yhyk",
+  "title",
+  "column_break_ggzu",
+  "thoi_gian",
+  "section_break_cvdp",
+  "html_wuzn",
+  "du_lieu_nam",
+  "section_break_wvvo",
+  "nam",
+  "du_lieu_uoc_tinh",
+  "column_break_nryh",
+  "quy",
+  "du_lieu_va_ict",
+  "section_break_wkbk",
+  "kts_loi",
+  "column_break_pxxv",
+  "kts_lan_toa",
+  "column_break_tofc",
+  "kts_tong",
+  "section_break_qyib",
+  "ty_trong_kts_loi",
+  "ty_trong_kts_logistics",
+  "column_break_cdtu",
+  "ty_trong_kts_lan_toa",
+  "column_break_jsxz",
+  "ty_trong_kts_tong",
+  "tab_bang_uoc_tinh",
+  "grdp_bang_uoc_tinh",
+  "tong_grdp_uoc_tinh",
+  "tab_bang_va_ict",
+  "column_break_czzd",
+  "va_bang_va_ict",
+  "tong_va"
+ ],
+ "fields": [
+  {
+   "depends_on": "eval: !doc.du_lieu_nam",
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4"
+  },
+  {
+   "fieldname": "column_break_nryh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "fieldname": "du_lieu_uoc_tinh",
+   "fieldtype": "Link",
+   "label": "D\u1eef li\u1ec7u \u01b0\u1edbc t\u00ednh",
+   "options": "Estimated GRDP",
+   "read_only": 1
+  },
+  {
+   "fieldname": "du_lieu_va_ict",
+   "fieldtype": "Link",
+   "label": "D\u1eef li\u1ec7u VA ICT",
+   "options": "VA ICT",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tab_bang_uoc_tinh",
+   "fieldtype": "Tab Break",
+   "label": "B\u1ea3ng \u01b0\u1edbc t\u00ednh"
+  },
+  {
+   "fieldname": "grdp_bang_uoc_tinh",
+   "fieldtype": "Table",
+   "options": "Estimated Industry GRDP",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "du_lieu_uoc_tinh.tong_grdp_uoc_tinh",
+   "fieldname": "tong_grdp_uoc_tinh",
+   "fieldtype": "Currency",
+   "label": "T\u1ed5ng GRDP \u01b0\u1edbc t\u00ednh",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "du_lieu_va_ict.tong_va",
+   "fieldname": "tong_va",
+   "fieldtype": "Currency",
+   "label": "T\u1ed5ng VA",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_wkbk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kts_loi",
+   "fieldtype": "Currency",
+   "label": "KTS l\u00f5i",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pxxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kts_lan_toa",
+   "fieldtype": "Currency",
+   "label": "KTS lan to\u1ea3",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_tofc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "kts_tong",
+   "fieldtype": "Currency",
+   "label": "KTS t\u1ed5ng",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_qyib",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ty_trong_kts_loi",
+   "fieldtype": "Percent",
+   "label": "T\u1ef7 tr\u1ecdng KTS l\u00f5i",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cdtu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ty_trong_kts_lan_toa",
+   "fieldtype": "Percent",
+   "label": "T\u1ef7 tr\u1ecdng KTS lan to\u1ea3",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_jsxz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "ty_trong_kts_tong",
+   "fieldtype": "Percent",
+   "label": "T\u1ef7 tr\u1ecdng KTS t\u1ed5ng",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_yhyk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_ggzu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "tab_bang_va_ict",
+   "fieldtype": "Tab Break",
+   "label": "B\u1ea3ng VA ICT",
+   "read_only": 1
+  },
+  {
+   "fieldname": "va_bang_va_ict",
+   "fieldtype": "Table",
+   "options": "VA ICT Industry",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_czzd",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "html_wuzn",
+   "fieldtype": "HTML",
+   "options": "<p>Trong tr\u01b0\u1eddng h\u1ee3p d\u1eef li\u1ec7u nh\u1eadp l\u00e0 d\u1eef li\u1ec7u c\u1ee7a n\u0103m, ch\u1ecdn v\u00e0o \u00f4 <b>D\u1eef li\u1ec7u n\u0103m</b> b\u00ean d\u01b0\u1edbi</p>"
+  },
+  {
+   "fieldname": "section_break_wvvo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "du_lieu_nam",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "D\u1eef li\u1ec7u n\u0103m"
+  },
+  {
+   "fieldname": "ty_trong_kts_logistics",
+   "fieldtype": "Percent",
+   "hidden": 1,
+   "label": "T\u1ef7 tr\u1ecdng KTS ng\u00e0nh Logistics",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_cvdp",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 13:51:57.453240",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "GRDP Index",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "thoi_gian",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}

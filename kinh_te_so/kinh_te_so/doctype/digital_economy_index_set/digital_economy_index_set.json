@@ -7,6 +7,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "tab_1_tab",
   "nam",
   "title",
   "column_break_qtbb",
@@ -212,11 +213,16 @@
    "hidden": 1,
    "label": "Title",
    "unique": 1
+  },
+  {
+   "fieldname": "tab_1_tab",
+   "fieldtype": "Tab Break",
+   "label": "Th\u1eddi gian"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-11 11:59:23.900748",
+ "modified": "2025-01-13 08:21:02.520091",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Digital Economy Index Set",

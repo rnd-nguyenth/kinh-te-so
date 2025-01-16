@@ -46,7 +46,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "N\u0103m",
-   "options": "\n2023\n2024",
+   "options": "\n2022\n2023\n2024",
    "reqd": 1,
    "sort_options": 1
   },
@@ -222,7 +222,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-13 08:21:02.520091",
+ "modified": "2025-01-16 14:11:55.169562",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Digital Economy Index Set",
@@ -246,5 +246,6 @@
  "sort_field": "thoi_gian",
  "sort_order": "DESC",
  "states": [],
- "title_field": "title"
+ "title_field": "title",
+ "track_changes": 1
 }

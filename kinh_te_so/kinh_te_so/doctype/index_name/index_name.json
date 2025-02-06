@@ -9,7 +9,9 @@
   "bo_chi_so",
   "column_break_vzhr",
   "so_thu_tu",
-  "diem_co_so"
+  "diem_co_so",
+  "section_break_dgkg",
+  "cach_tinh_diem"
  ],
  "fields": [
   {
@@ -41,11 +43,20 @@
    "in_list_view": 1,
    "label": "S\u1ed1 th\u1ee9 t\u1ef1",
    "read_only_depends_on": "eval:frappe.user.has_role('Administrator') != 1;"
+  },
+  {
+   "fieldname": "section_break_dgkg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cach_tinh_diem",
+   "fieldtype": "Small Text",
+   "label": "C\u00e1ch x\u00e1c \u0111\u1ecbnh v\u00e0 t\u00ednh \u0111i\u1ec3m"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-09 16:10:05.858558",
+ "modified": "2025-01-20 14:35:53.621759",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Index Name",

@@ -38,7 +38,10 @@
   "column_break_rycs",
   "tong_diem_co_so_hoat_dong_kinh_te_so",
   "tab_6_tab",
-  "bang_doanh_thu_nganh_kts"
+  "bang_doanh_thu_nganh_kts",
+  "tab_7_tab",
+  "section_break_rgga",
+  "bang_kts_nganh_mui_nhon"
  ],
  "fields": [
   {
@@ -218,11 +221,25 @@
    "fieldname": "tab_1_tab",
    "fieldtype": "Tab Break",
    "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "tab_7_tab",
+   "fieldtype": "Tab Break",
+   "label": "Ng\u00e0nh m\u0169i nh\u1ecdn"
+  },
+  {
+   "fieldname": "bang_kts_nganh_mui_nhon",
+   "fieldtype": "Table",
+   "options": "Key Industries"
+  },
+  {
+   "fieldname": "section_break_rgga",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-16 14:11:55.169562",
+ "modified": "2025-02-06 13:01:43.565719",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Digital Economy Index Set",

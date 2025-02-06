@@ -15,7 +15,7 @@
   "bang_ha_tang_va_an_ninh_mang",
   "tab_4_tab",
   "bang_nhan_luc_so",
-  "tab_5_t\u00e1b",
+  "tab_5_tab",
   "bang_hoat_dong_kinh_te_so",
   "tab_6_tab",
   "bang_doanh_thu_nganh_kts"
@@ -63,11 +63,6 @@
    "options": "Index Full Set"
   },
   {
-   "fieldname": "tab_5_t\u00e1b",
-   "fieldtype": "Tab Break",
-   "label": "Ho\u1ea1t \u0111\u1ed9ng Kinh t\u1ebf s\u1ed1"
-  },
-  {
    "fieldname": "bang_hoat_dong_kinh_te_so",
    "fieldtype": "Table",
    "options": "Index Full Set"
@@ -88,11 +83,16 @@
    "hidden": 1,
    "label": "Title",
    "unique": 1
+  },
+  {
+   "fieldname": "tab_5_tab",
+   "fieldtype": "Tab Break",
+   "label": "Ho\u1ea1t \u0111\u1ed9ng Kinh t\u1ebf s\u1ed1"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-20 08:49:15.881835",
+ "modified": "2025-01-20 10:05:32.755127",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Digital Economy Index Full Set",

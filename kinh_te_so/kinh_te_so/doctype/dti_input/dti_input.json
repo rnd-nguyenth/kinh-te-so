@@ -17,7 +17,6 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "T\u00ean ch\u1ec9 s\u1ed1",
-   "link_filters": "[[\"Index Name\",\"nguon_du_lieu\",\"=\",\"t26n03d78r\"]]",
    "options": "Index Name",
    "set_only_once": 1
   },
@@ -40,7 +39,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-11 16:09:15.785663",
+ "modified": "2025-02-11 16:53:57.266557",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "DTI Input",

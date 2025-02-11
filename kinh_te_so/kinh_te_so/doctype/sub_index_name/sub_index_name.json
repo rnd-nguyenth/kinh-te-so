@@ -24,6 +24,7 @@
   {
    "fieldname": "nguon_du_lieu",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Ngu\u1ed3n d\u1eef li\u1ec7u",
    "options": "Data Source"
@@ -31,7 +32,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-11 16:09:14.226828",
+ "modified": "2025-02-11 16:44:49.855075",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Sub-Index Name",

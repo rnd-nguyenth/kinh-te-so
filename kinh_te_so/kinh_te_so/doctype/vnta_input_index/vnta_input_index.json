@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-11 15:10:47.515962",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_chi_so",
+  "cach_xac_dinh_tinh_diem",
+  "gia_tri"
+ ],
+ "fields": [
+  {
+   "columns": 7,
+   "fieldname": "ten_chi_so",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "T\u00ean ch\u1ec9 s\u1ed1",
+   "link_filters": "[[\"Index Name\",\"nguon_du_lieu\",\"=\",\"rcqupps977\"]]",
+   "options": "Index Name"
+  },
+  {
+   "fetch_from": "ten_chi_so.cach_tinh_diem",
+   "fieldname": "cach_xac_dinh_tinh_diem",
+   "fieldtype": "Small Text",
+   "label": "C\u00e1ch x\u00e1c \u0111\u1ecbnh",
+   "read_only": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "gia_tri",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Gi\u00e1 tr\u1ecb",
+   "precision": "4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-11 16:09:15.293008",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "VNTA Input Index",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

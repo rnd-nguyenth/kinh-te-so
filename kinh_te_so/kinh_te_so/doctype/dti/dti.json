@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:D\u1eef li\u1ec7u C\u1ee5c chuy\u1ec3n \u0111\u1ed5i s\u1ed1 Qu\u1ed1c gia {quy}/{nam}",
+ "creation": "2025-02-11 14:32:03.401225",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "quy",
+  "thoi_gian",
+  "column_break_jgfq",
+  "nam",
+  "section_break_ytlu",
+  "dti_input_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4",
+   "sort_options": 1
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "column_break_jgfq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025",
+   "sort_options": 1
+  },
+  {
+   "fieldname": "section_break_ytlu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dti_input_table",
+   "fieldtype": "Table",
+   "options": "DTI Input"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-11 16:09:15.521998",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "DTI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

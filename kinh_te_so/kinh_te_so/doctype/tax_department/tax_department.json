@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:D\u1eef li\u1ec7u C\u1ee5c thu\u1ebf Th\u00e0nh ph\u1ed1 H\u1ea3i Ph\u00f2ng {quy}/{nam}",
+ "creation": "2025-02-11 15:26:42.832482",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "quy",
+  "thoi_gian",
+  "column_break_ruyq",
+  "nam",
+  "section_break_ohmy",
+  "tax_input_index_table",
+  "section_break_htex",
+  "tax_input_sub_index_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4"
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "column_break_ruyq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "fieldname": "section_break_ohmy",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1"
+  },
+  {
+   "fieldname": "tax_input_index_table",
+   "fieldtype": "Table",
+   "options": "Tax Input Index"
+  },
+  {
+   "fieldname": "section_break_htex",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n"
+  },
+  {
+   "fieldname": "tax_input_sub_index_table",
+   "fieldtype": "Table",
+   "options": "Tax Input Sub-Index"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-11 16:09:14.043914",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Tax Department",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

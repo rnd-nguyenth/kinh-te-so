@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ten_chi_so_thanh_phan",
+ "creation": "2025-02-10 11:11:16.228150",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_chi_so_thanh_phan",
+  "column_break_sypt",
+  "nguon_du_lieu"
+ ],
+ "fields": [
+  {
+   "fieldname": "ten_chi_so_thanh_phan",
+   "fieldtype": "Data",
+   "label": "T\u00ean ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_sypt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nguon_du_lieu",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Ngu\u1ed3n d\u1eef li\u1ec7u",
+   "options": "Data Source"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-11 16:09:14.226828",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Sub-Index Name",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

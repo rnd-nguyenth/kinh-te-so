@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{ten_tinh_thanh_pho}-{nam}",
+ "creation": "2025-02-11 10:02:00.534483",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_tinh_thanh_pho",
+  "nam",
+  "column_break_jjci",
+  "dti"
+ ],
+ "fields": [
+  {
+   "fieldname": "ten_tinh_thanh_pho",
+   "fieldtype": "Data",
+   "label": "T\u1ec9nh/Th\u00e0nh ph\u1ed1"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "N\u0103m",
+   "options": "\n2020\n2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "column_break_jjci",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dti",
+   "fieldtype": "Float",
+   "label": "DTI",
+   "precision": "4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-11 16:09:15.985384",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "DTI Ranking",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

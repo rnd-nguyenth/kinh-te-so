@@ -7,11 +7,18 @@
  "field_order": [
   "ten_chi_so",
   "bo_chi_so",
+  "nguon_du_lieu",
   "column_break_vzhr",
   "so_thu_tu",
   "diem_co_so",
   "section_break_dgkg",
-  "cach_tinh_diem"
+  "cach_tinh_diem",
+  "section_break_wyzf",
+  "chi_so_thanh_phan_a",
+  "chi_so_thanh_phan_b",
+  "column_break_lyrb",
+  "nguon_du_lieu_chi_so_thanh_phan_a",
+  "nguon_du_lieu_chi_so_thanh_phan_b"
  ],
  "fields": [
   {
@@ -52,11 +59,51 @@
    "fieldname": "cach_tinh_diem",
    "fieldtype": "Small Text",
    "label": "C\u00e1ch x\u00e1c \u0111\u1ecbnh v\u00e0 t\u00ednh \u0111i\u1ec3m"
+  },
+  {
+   "fieldname": "nguon_du_lieu",
+   "fieldtype": "Link",
+   "label": "Ngu\u1ed3n d\u1eef li\u1ec7u",
+   "options": "Data Source"
+  },
+  {
+   "fieldname": "section_break_wyzf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "chi_so_thanh_phan_a",
+   "fieldtype": "Link",
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n A",
+   "options": "Sub-Index Name"
+  },
+  {
+   "fieldname": "chi_so_thanh_phan_b",
+   "fieldtype": "Link",
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n B",
+   "options": "Sub-Index Name"
+  },
+  {
+   "fieldname": "column_break_lyrb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "chi_so_thanh_phan_a.nguon_du_lieu",
+   "fieldname": "nguon_du_lieu_chi_so_thanh_phan_a",
+   "fieldtype": "Link",
+   "label": "Ngu\u1ed3n d\u1eef li\u1ec7u ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n A",
+   "options": "Data Source"
+  },
+  {
+   "fetch_from": "chi_so_thanh_phan_b.nguon_du_lieu",
+   "fieldname": "nguon_du_lieu_chi_so_thanh_phan_b",
+   "fieldtype": "Link",
+   "label": "Ngu\u1ed3n d\u1eef li\u1ec7u ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n B",
+   "options": "Data Source"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-20 14:35:53.621759",
+ "modified": "2025-02-10 11:20:59.989738",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Index Name",

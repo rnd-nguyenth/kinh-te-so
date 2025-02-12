@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:D\u1eef li\u1ec7u C\u1ee5c H\u1ea3i quan Th\u00e0nh ph\u1ed1 {quy}/{nam}",
  "creation": "2025-02-12 08:18:01.448460",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -72,10 +73,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-12 09:02:41.497794",
+ "modified": "2025-02-12 09:12:57.199509",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Custom Department",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

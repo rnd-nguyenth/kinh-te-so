@@ -10,6 +10,7 @@
   "thoi_gian",
   "column_break_weeo",
   "nam",
+  "hoan_thanh",
   "section_break_kopd",
   "vnta_input_index_table",
   "section_break_nfgt",
@@ -19,6 +20,7 @@
   {
    "fieldname": "quy",
    "fieldtype": "Select",
+   "in_standard_filter": 1,
    "label": "Qu\u00fd",
    "options": "\nQ1\nQ2\nQ3\nQ4"
   },
@@ -35,6 +37,7 @@
   {
    "fieldname": "nam",
    "fieldtype": "Select",
+   "in_standard_filter": 1,
    "label": "N\u0103m",
    "options": "\n2022\n2023\n2024\n2025"
   },
@@ -57,11 +60,20 @@
    "fieldname": "vnta_input_sub_index_table",
    "fieldtype": "Table",
    "options": "VNTA Input Sub-Index"
+  },
+  {
+   "fieldname": "hoan_thanh",
+   "fieldtype": "Percent",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Nh\u1eadp li\u1ec7u",
+   "precision": "2",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-11 16:09:14.919914",
+ "modified": "2025-02-12 09:00:57.949962",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "VNTA",

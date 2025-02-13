@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:D\u1eef li\u1ec7u C\u1ee5c vi\u1ec5n th\u00f4ng {quy}/{nam}",
+ "autoname": "format:D\u1eef li\u1ec7u UBND TP.H\u1ea3i Ph\u00f2ng {quy}/{nam}",
  "creation": "2025-02-11 15:08:24.311249",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -73,7 +73,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-12 09:00:57.949962",
+ "modified": "2025-02-13 08:46:49.124984",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "VNTA",

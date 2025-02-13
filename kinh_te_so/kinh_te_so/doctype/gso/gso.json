@@ -12,9 +12,9 @@
   "nam",
   "hoan_thanh",
   "section_break_wltu",
-  "table_nnbh",
+  "gso_input_index_table",
   "section_break_clmc",
-  "table_owmp"
+  "gso_input_sub_index_table"
  ],
  "fields": [
   {
@@ -56,24 +56,24 @@
    "label": "Ch\u1ec9 s\u1ed1"
   },
   {
-   "fieldname": "table_nnbh",
-   "fieldtype": "Table",
-   "options": "GSO Input Index"
-  },
-  {
    "fieldname": "section_break_clmc",
    "fieldtype": "Section Break",
    "label": "Ch\u00ed s\u1ed1 th\u00e0nh ph\u1ea7n"
   },
   {
-   "fieldname": "table_owmp",
+   "fieldname": "gso_input_index_table",
+   "fieldtype": "Table",
+   "options": "GSO Input Index"
+  },
+  {
+   "fieldname": "gso_input_sub_index_table",
    "fieldtype": "Table",
    "options": "GSO Input Sub-Index"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-13 09:09:42.059751",
+ "modified": "2025-02-13 09:11:55.421802",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "GSO",

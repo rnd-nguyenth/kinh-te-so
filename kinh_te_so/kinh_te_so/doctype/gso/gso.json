@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:D\u1eef li\u1ec7u C\u1ee5c th\u1ed1ng k\u00ea {quy}/{nam}",
+ "creation": "2025-02-13 09:01:11.485710",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "quy",
+  "thoi_gian",
+  "column_break_ghkb",
+  "nam",
+  "hoan_thanh",
+  "section_break_wltu",
+  "table_nnbh",
+  "section_break_clmc",
+  "table_owmp"
+ ],
+ "fields": [
+  {
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4"
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "column_break_ghkb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "fieldname": "hoan_thanh",
+   "fieldtype": "Percent",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Nh\u1eadp li\u1ec7u",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_wltu",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1"
+  },
+  {
+   "fieldname": "table_nnbh",
+   "fieldtype": "Table",
+   "options": "GSO Input Index"
+  },
+  {
+   "fieldname": "section_break_clmc",
+   "fieldtype": "Section Break",
+   "label": "Ch\u00ed s\u1ed1 th\u00e0nh ph\u1ea7n"
+  },
+  {
+   "fieldname": "table_owmp",
+   "fieldtype": "Table",
+   "options": "GSO Input Sub-Index"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-13 09:09:42.059751",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "GSO",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

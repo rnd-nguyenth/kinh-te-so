@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-13 09:06:40.355799",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_chi_so",
+  "gia_tri",
+  "nguon_du_lieu"
+ ],
+ "fields": [
+  {
+   "columns": 6,
+   "fieldname": "ten_chi_so",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "T\u00ean ch\u1ec9 s\u1ed1",
+   "options": "Sub-Index Name",
+   "set_only_once": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "gia_tri",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Gi\u00e1 tr\u1ecb",
+   "precision": "4"
+  },
+  {
+   "columns": 2,
+   "fetch_from": "ten_chi_so.nguon_du_lieu",
+   "fieldname": "nguon_du_lieu",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Ngu\u1ed3n",
+   "options": "Data Source",
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-13 09:08:10.838271",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "GSO Input Sub-Index",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

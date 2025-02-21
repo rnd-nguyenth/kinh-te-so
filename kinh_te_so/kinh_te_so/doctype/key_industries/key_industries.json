@@ -58,12 +58,14 @@
    "precision": "2"
   },
   {
+   "bold": 1,
    "columns": 3,
    "fieldname": "nganh_kinh_te",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Ng\u00e0nh kinh t\u1ebf",
-   "options": "Industry Name"
+   "options": "Industry Name",
+   "set_only_once": 1
   },
   {
    "fieldname": "gia_tri_grdp_thanh_pho",
@@ -85,7 +87,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-06 13:02:54.563668",
+ "modified": "2025-02-21 08:59:08.634381",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Key Industries",

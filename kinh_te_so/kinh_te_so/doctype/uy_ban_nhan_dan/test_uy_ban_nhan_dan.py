@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestVNTA(FrappeTestCase):
+class TestUy_Ban_Nhan_Dan(FrappeTestCase):
 	pass

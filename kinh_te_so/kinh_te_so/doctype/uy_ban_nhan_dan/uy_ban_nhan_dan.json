@@ -2,19 +2,19 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:D\u1eef li\u1ec7u UBND TP.H\u1ea3i Ph\u00f2ng {quy}/{nam}",
- "creation": "2025-02-11 15:08:24.311249",
+ "creation": "2025-02-21 08:14:35.550960",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "quy",
   "thoi_gian",
-  "column_break_weeo",
+  "column_break_wghl",
   "nam",
   "hoan_thanh",
-  "section_break_kopd",
-  "vnta_input_index_table",
-  "section_break_nfgt",
-  "vnta_input_sub_index_table"
+  "section_break_gyip",
+  "nhap_lieu_chi_so_ubnd",
+  "section_break_rcca",
+  "nhap_lieu_chi_so_thanh_phan_ubnd"
  ],
  "fields": [
   {
@@ -31,7 +31,7 @@
    "label": "Th\u1eddi gian"
   },
   {
-   "fieldname": "column_break_weeo",
+   "fieldname": "column_break_wghl",
    "fieldtype": "Column Break"
   },
   {
@@ -42,26 +42,6 @@
    "options": "\n2022\n2023\n2024\n2025"
   },
   {
-   "fieldname": "section_break_kopd",
-   "fieldtype": "Section Break",
-   "label": "Ch\u1ec9 s\u1ed1"
-  },
-  {
-   "fieldname": "vnta_input_index_table",
-   "fieldtype": "Table",
-   "options": "VNTA Input Index"
-  },
-  {
-   "fieldname": "section_break_nfgt",
-   "fieldtype": "Section Break",
-   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n"
-  },
-  {
-   "fieldname": "vnta_input_sub_index_table",
-   "fieldtype": "Table",
-   "options": "VNTA Input Sub-Index"
-  },
-  {
    "fieldname": "hoan_thanh",
    "fieldtype": "Percent",
    "hidden": 1,
@@ -69,14 +49,34 @@
    "label": "Nh\u1eadp li\u1ec7u",
    "precision": "2",
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_gyip",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1"
+  },
+  {
+   "fieldname": "nhap_lieu_chi_so_ubnd",
+   "fieldtype": "Table",
+   "options": "Nhap_lieu_chi_so_UBND"
+  },
+  {
+   "fieldname": "section_break_rcca",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n"
+  },
+  {
+   "fieldname": "nhap_lieu_chi_so_thanh_phan_ubnd",
+   "fieldtype": "Table",
+   "options": "Nhap_lieu_chi_so_thanh_phan_ubnd"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-13 08:46:49.124984",
+ "modified": "2025-02-21 09:58:31.995348",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
- "name": "VNTA",
+ "name": "Uy_Ban_Nhan_Dan",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

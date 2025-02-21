@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class VNTAInputSubIndex(Document):
+class Nhap_lieu_chi_so_thanh_phan_ubnd(Document):
 	pass

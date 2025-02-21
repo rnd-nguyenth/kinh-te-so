@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class VNTA(Document):
+class Uy_Ban_Nhan_Dan(Document):
 	pass

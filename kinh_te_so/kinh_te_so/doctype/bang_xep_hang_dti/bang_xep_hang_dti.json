@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-26 09:25:08.631573",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_tinh_thanh_pho",
+  "chi_so_cqs",
+  "chi_so_kts",
+  "chi_so_xhs"
+ ],
+ "fields": [
+  {
+   "fieldname": "ten_tinh_thanh_pho",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "T\u1ec9nh/Th\u00e0nh ph\u1ed1",
+   "options": "Ten_Tinh_Thanh_Pho"
+  },
+  {
+   "fieldname": "chi_so_cqs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Ch\u1ec9 s\u1ed1 CQS",
+   "precision": "4"
+  },
+  {
+   "fieldname": "chi_so_kts",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Ch\u1ec9 s\u1ed1 KTS",
+   "precision": "4"
+  },
+  {
+   "fieldname": "chi_so_xhs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Ch\u1ec9 s\u1ed1 XHS",
+   "precision": "4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-26 09:29:26.382282",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Bang_Xep_Hang_DTI",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:D\u1eef li\u1ec7u x\u1ebfp h\u1ea1ng DTI n\u0103m {nam}",
+ "creation": "2025-02-26 09:13:40.983333",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nam",
+  "table_nwuo"
+ ],
+ "fields": [
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "fieldname": "table_nwuo",
+   "fieldtype": "Table",
+   "options": "Bang_Xep_Hang_DTI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-26 09:30:33.264904",
+ "modified_by": "Administrator",
+ "module": "Kinh Te So",
+ "name": "Xep_Hang_DTI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

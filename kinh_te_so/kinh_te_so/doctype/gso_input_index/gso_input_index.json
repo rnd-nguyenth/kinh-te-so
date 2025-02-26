@@ -3,6 +3,7 @@
  "allow_rename": 1,
  "creation": "2025-02-13 09:03:45.653927",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "ten_chi_so",
@@ -47,7 +48,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-13 09:08:17.362261",
+ "modified": "2025-02-26 13:12:52.313450",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "GSO Input Index",

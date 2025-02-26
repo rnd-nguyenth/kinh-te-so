@@ -8,6 +8,7 @@
  "field_order": [
   "ten",
   "stt",
+  "column_break_vdfm",
   "vung_mien"
  ],
  "fields": [
@@ -27,11 +28,15 @@
    "fieldtype": "Select",
    "label": "V\u00f9ng mi\u1ec1n",
    "options": "\nT\u00e2y B\u1eafc B\u1ed9\n\u0110\u00f4ng B\u1eafc B\u1ed9\n\u0110\u1ed3ng b\u1eb1ng s\u00f4ng H\u1ed3ng\nB\u1eafc Trung B\u1ed9\nNam Trung B\u1ed9\nT\u00e2y Nguy\u00ean\n\u0110\u00f4ng Nam B\u1ed9\n\u0110\u1ed3ng b\u1eb1ng s\u00f4ng C\u1eedu Long"
+  },
+  {
+   "fieldname": "column_break_vdfm",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-26 10:03:44.217009",
+ "modified": "2025-02-26 10:29:24.138129",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Ten_Tinh_Thanh_Pho",

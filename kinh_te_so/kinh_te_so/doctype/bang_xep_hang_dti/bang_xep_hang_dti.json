@@ -9,7 +9,8 @@
   "ten_tinh_thanh_pho",
   "chi_so_cqs",
   "chi_so_kts",
-  "chi_so_xhs"
+  "chi_so_xhs",
+  "stt"
  ],
  "fields": [
   {
@@ -39,12 +40,18 @@
    "in_list_view": 1,
    "label": "Ch\u1ec9 s\u1ed1 XHS",
    "precision": "4"
+  },
+  {
+   "fetch_from": "ten_tinh_thanh_pho.stt",
+   "fieldname": "stt",
+   "fieldtype": "Int",
+   "label": "STT"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-26 09:29:26.382282",
+ "modified": "2025-02-26 10:11:03.662545",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "Bang_Xep_Hang_DTI",

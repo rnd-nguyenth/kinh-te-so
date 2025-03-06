@@ -18,7 +18,8 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "T\u00ean ch\u1ec9 s\u1ed1",
-   "options": "Index Name"
+   "options": "Index Name",
+   "read_only": 1
   },
   {
    "fetch_from": "ten_chi_so.cach_tinh_diem",
@@ -50,7 +51,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-03-06 10:49:53.586063",
+ "modified": "2025-03-06 10:56:11.323986",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "GSO Input Index",

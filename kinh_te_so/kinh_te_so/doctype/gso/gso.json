@@ -58,7 +58,7 @@
   {
    "fieldname": "section_break_clmc",
    "fieldtype": "Section Break",
-   "label": "Ch\u00ed s\u1ed1 th\u00e0nh ph\u1ea7n"
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n"
   },
   {
    "fieldname": "gso_input_index_table",
@@ -73,7 +73,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-13 09:11:55.421802",
+ "modified": "2025-03-05 08:43:34.041096",
  "modified_by": "Administrator",
  "module": "Kinh Te So",
  "name": "GSO",
